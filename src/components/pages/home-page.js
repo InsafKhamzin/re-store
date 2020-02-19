@@ -1,10 +1,15 @@
 import React from 'react';
-import BooksList from '../book-list';
+import BookListContainer from '../book-list';
+import ShoppingCartTable from '../shopping-cart-table';
 
 const HomePage = () => {
 
     return (
-        <BooksList />
+        <div>
+            <BookListContainer />
+            <ShoppingCartTable />
+        </div>
+
     );
 };
 
