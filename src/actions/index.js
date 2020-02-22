@@ -11,8 +11,6 @@ const booksLoaded = (newBooks) => {
     };
 };
 
-
-
 const booksError= (error) => {
     return {
         type: 'FETCH_BOOKS_FAILURE',
